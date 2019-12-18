@@ -1,0 +1,121 @@
+/**
+ * Z-Index: let's us position elements on top of each other (the z-axis controls depth position)
+ **/
+
+
+.box {
+  border: 2px solid black
+}
+
+.box-1 { 
+  z-index: 40;
+
+  background-image: radial-gradient(circle, #5a4b5e, #333975, #116466);
+
+}
+
+.box-2 {
+  
+  z-index: 30;
+
+  background-image: linear-gradient(to right, #5a4b5e, #333975, #116466);
+}
+
+.box-3 {
+  
+  z-index: 20;
+
+  background-image: radial-gradient( #5a4b5e, #333975, #116466);
+}
+
+.box-4 {
+  
+  z-index: 10;
+
+  background-image: linear-gradient( #5a4b5e, #333975, #116466);
+}
+
+.box-11 {
+  
+  z-index: 41;
+
+  background-image: linear-gradient( #7e8696, #447ac4, #2d999f);
+}
+
+.box-12 {
+  z-index: 31;
+
+  background-image: radial-gradient( #7e8696, #447ac4, #2d999f);
+}
+
+.box-13 {
+  
+  z-index: 21;
+
+  background-image: radial-gradient(circle, #7e8696, #447ac4, #2d999f);
+}
+
+.box-14 {
+  
+  z-index: 11;
+
+  background-image: linear-gradient(to right, #7e8696, #447ac4, #2d999f);
+}
+
+.box-21 {
+  
+  z-index: 60;
+
+  background-image: linear-gradient(to right, #963ff9, #5e7ff5, #2ec4f3);
+}
+
+.box-22 {
+  
+  z-index: 70;
+
+  background-image: radial-gradient(circle, 	#2ec4f3, #5e7ff5, #963ff9);
+}
+
+.box-23 {
+  
+  z-index: 80;
+
+  background-image: linear-gradient( 	#2ec4f3,  #5e7ff5, #963ff9);
+
+  
+}
+
+.box-24 {
+ 
+  z-index: 90;
+
+  background-image: radial-gradient( 	#2ec4f3, #5e7ff5, #963ff9);
+}
+
+.box-31 {
+  
+  z-index: 61;
+
+  background-image: radial-gradient( 	#deb4ea, #acbeff, #b4e6f4);
+}
+
+.box-32 {
+  
+  z-index: 71;
+
+  background-image: linear-gradient( 	#deb4ea,  #acbeff, #b4e6f4);
+}
+
+.box-33 {
+  z-index: 81;
+
+  background-image: linear-gradient(to right, 	#deb4ea, #acbeff, #b4e6f4);
+}
+
+.box-34 {
+  
+  z-index: 91;
+
+  background-image: radial-gradient(circle, 	#deb4ea, #acbeff, #b4e6f4);
+}
+
